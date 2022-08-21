@@ -1,0 +1,21 @@
+:root {
+  --bg: #fff;
+  --bg-contrast: rgba(0, 0, 0, 0.15);
+  --bg-panel: #fff;
+  --color-headings: #000;
+  --color-text: #000;
+  --color-text-base: #000;
+  --color-fav: #bc2626;
+  --border: #3c414d;
+}
+
+[data-theme="dark"] {
+  --bg: #0f1014;
+  --bg-contrast: rgba(255, 255, 255, 0.15);
+  --bg-panel: #fff;
+  --color-headings: #fff;
+  --color-text: #fff;
+  --color-text-base: #000;
+  --color-fav: #ff0000;
+  --border: #c0c5ca;
+}

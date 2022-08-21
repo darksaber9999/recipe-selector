@@ -1,0 +1,85 @@
+.full-site-modal {
+  background: var(--bg);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  transition: all 0.35s ease-in;
+  z-index: 99;
+  overflow: scroll;
+}
+
+.full-site-modal .container-fluid,
+.full-site-modal .container {
+  padding: 0;
+}
+
+.modal-header {
+  display: flex;
+  padding-bottom: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header .modal-title {
+  text-align: left;
+}
+
+.modal-header .header-title {
+  text-transform: capitalize;
+  font-size: 1.8rem;
+}
+
+.modal-header .header-subtitle {
+  font-size: 1.2rem;
+}
+
+.header-subtitle span:nth-of-type(2) {
+  padding: 0 12px;
+}
+
+.modal-header .fa-times {
+  font-size: 2.5rem;
+  transition: all 0.5s ease-in;
+}
+
+.modal-body {
+  display: block;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.recipe-media {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.recipe-media .recipe-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.recipe-info {
+  gap: 12px;
+}
+
+.recipe-info .recipe-list {
+  margin-top: 12px;
+  letter-spacing: 1.5px;
+}
+
+.recipe-instructions-wrapper {
+  margin-top: 40px;
+}
+
+.recipe-instructions {
+  line-height: 2;
+  letter-spacing: 1.5px;
+  font-size: 1.1rem;
+  text-align: justify;
+}

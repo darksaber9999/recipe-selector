@@ -1,0 +1,111 @@
+section,
+footer,
+header,
+main,
+nav {
+  display: block;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+  color: var(--color-text);
+  background-color: var(--bg);
+  text-align: center;
+}
+
+a {
+  color: #495fef;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-headings);
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+button {
+  outline: none;
+}
+
+.container,
+.container-fluid {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  max-width: 1140px;
+}
+
+.ul-defaults-none {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  font-weight: 700;
+  width: 175px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 1.63px;
+  transition: 0.4s;
+  height: 65px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0 32px 54px rgba(0, 0, 0, 0.15);
+}
+
+.btn:not(:disabled):not(.disabled),
+button:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.btn-primary,
+.btn-primary a {
+  color: #fff;
+  background-color: #495fef;
+  border-color: #495fef;
+}
+
+.btn-round-pill {
+  border-radius: 50rem;
+}
+
+.btn-md-square {
+  width: 65px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.btn-sm-square {
+  width: 40px;
+  height: 40px;
+  padding-left: 0;
+  padding-right: 0;
+}
